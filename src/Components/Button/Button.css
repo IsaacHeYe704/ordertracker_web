@@ -1,0 +1,55 @@
+:root {
+  --blue: #5479ff;
+  --white: #fff;
+  --max: 9999px;
+  --gray: #bfbfbf;
+}
+
+.shareButton {
+  
+  all: unset;
+  background: var(--white);
+  border: 2px solid var(--gray);
+  color: var(--gray);
+  padding: 10px;
+  border-radius: var(--max);
+  cursor: pointer;
+  transition: 500ms all ease-in-out;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  margin-top: 50px;
+}
+.shareButton:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+}
+
+
+
+
+.carrierButton {
+  
+  all: unset;
+  background: var(--white);
+  border: 2px solid var(--gray);
+  color: var(--gray);
+  padding: 10px;
+  border-radius: var(--max);
+  cursor: pointer;
+  transition: 500ms all ease-in-out;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  margin-top: 50px;
+}
+.carrierButton:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+}

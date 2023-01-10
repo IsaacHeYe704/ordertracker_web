@@ -1,0 +1,24 @@
+.updateTable
+{
+    text-align: left;
+    font-size: 20px;
+}
+.h3
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+}
+
+.updateTable td
+{
+    padding: 5px 20px;
+}
+.subtitle
+{
+    font-weight: 700;
+}
+.data
+{
+    color: var(--mainGrey);
+}

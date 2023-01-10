@@ -1,0 +1,55 @@
+.progress
+{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 2.5rem;
+}
+.container
+{
+    
+    display: flex;
+    
+    width: 80vw;
+    justify-content: space-around;
+    
+}
+
+.buttons> *+*
+{
+    margin-left: 20px;
+
+}
+@media (max-width: 470px) {
+    .container
+    {
+        
+        display: flex;
+        flex-direction: column;
+        
+        width: 80vw;
+        justify-content: space-around;
+    }
+    .progress
+    {
+        height: fit-content ;
+        padding-top: 100px;
+    }
+    .buttons> *+*
+    {
+        margin-left: 0;
+    }
+  }

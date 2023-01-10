@@ -1,0 +1,22 @@
+.h3
+{
+    color: var(--lightGrey);
+    font-size: 24px;
+    font-weight: 500;
+}
+.h1
+{
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+}
+.h2
+{
+    font-weight: 400;  
+}
+@media (max-width: 470px) {
+    .container
+    {
+        margin-bottom: 2px;
+    }
+}
